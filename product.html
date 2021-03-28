@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <!-- Font Aweome CDN -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <!-- Custom Syling -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- title -->
+  <title>Online store</title>
+</head>
+<body>
+  <!-- Header start -->
+  <header class="bg-primary">
+    <!-- Top bar Start -->
+    <div class="container d-none d-sm-block">
+      <div class="row">
+        <div class="col-12 col-md-6 col-sm-6">
+          <a href="./home.html" class="site-title"><h2 class="site-title my-md-3 text-white">Online Store</h2></a>
+        </div>
+        <div class="col-12 col-md-6 col-sm-6 text-end">
+          <p class="my-md-3">
+            <a class="mx-2" href="#"><i class="fab fa-facebook"></i></a>
+            <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="mx-2" href="#"><i class="fab fa-youtube"></i></a>
+            <a class="mx-2" href="#"><i class="fab fa-pinterest"></i></a>
+            <a class="mx-2" href="#"><i class="fab fa-snapchat"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Top bar End -->
+
+    <!-- navbar start-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 my-sm-2">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand site-title" href="./home.html">Company name</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="headerNavbar">
+                <ul class="navbar-nav me-auto mb-lg-0">
+                  <li class="nav-item"><a class="nav-link" href="./products.html">New Arrival</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./products.html">Men</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./products.html">Women</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./products.html">Boys</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./products.html">Girls</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./products.html">Sale</a></li>
+                </ul>
+                <ul class="navbar-nav mb-lg-0">
+                  <li class="nav-item"><a class="nav-link" href="#">Sign In</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-cart-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+    </div>
+    <!-- navbar end -->
+  </header>
+  <!-- header end -->
+
+  <!-- main start -->
+  <main class="container mb-5 mt-5">
+    <div class="row product">
+      <div class="col-1">
+        <div class="row">
+          <div class="col-12 mb-2">
+            <img src="./Assets/p8.jpg" alt="" class="w-100 small-image">
+          </div>
+          <div class="col-12 mb-2">
+            <img src="./Assets/p8-8.jpg" alt="" class="w-100 small-image">
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <img src="./Assets/p8.jpg" alt="" class="w-100" id="productImage">
+      </div>
+      <div class="col-6">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">Home</li>
+            <li class="breadcrumb-item ">Product</li>
+            <li class="breadcrumb-item active" aria-current="page">T-shirt</li>
+          </ol>
+        </nav>
+        <h2 class="text-uppercase product-title">FMTPT21-003 – Grey</h2>
+        <hr>
+        <div class="price mb-4">
+          <del>Rs. 1290</del> <span>Rs. 993</span>
+        </div>
+          <div class="row">
+            <div class="col-3">
+              <select class="form-select" aria-label="Default select example">
+                <option >Size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="extralarge">XL</option>
+                <option value="2xlarge">XXL</option>
+              </select>
+            </div>
+            <div class="col-4">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-dark guide-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Size Guide
+              </button>
+    
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">T-Shirt Size Guide</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Size</th>
+                            <th scope="col">Length</th>
+                            <th scope="col">Shoulder</th>
+                            <th scope="col">Chest</th>
+                            <th scope="col">Sleeve</th>
+                            <th scope="col">Armhole Curve</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td scope="row">S</td>
+                            <td>27</td>
+                            <td>16.25</td>
+                            <td>18.5</td>
+                            <td>6.5</td>
+                            <td>9</td>
+                          </tr>
+                          <tr>
+                            <td scope="row">M</td>
+                            <td>28</td>
+                            <td>17</td>
+                            <td>19.5</td>
+                            <td>7</td>
+                            <td>9.5</td>
+                          </tr>
+                          <tr>
+                            <td scope="row">L</td>
+                            <td>29</td>
+                            <td>28</td>
+                            <td>20.5</td>
+                            <td>7.5</td>
+                            <td>10</td>
+                          </tr>
+                          <tr>
+                            <td scope="row">XL</td>
+                            <td>30</td>
+                            <td>18.5</td>
+                            <td>21.5</td>
+                            <td>8</td>
+                            <td>10.5</td>
+                          </tr>
+                          <tr>
+                            <td scope="row">XXL</td>
+                            <td>31</td>
+                            <td>19.25</td>
+                            <td>22.5</td>
+                            <td>8.5</td>
+                            <td>11</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-3">
+              <input type="number" class="form-control quantity " id="quantity" value="1">
+            </div>
+            <div class="col-5">
+            <button class="btn bg-pink cart-btn text-uppercase"> Add to Cart <i class="fas fa-cart-plus"></i></button>
+            </div>
+          </div>
+
+          <h2 class="my-4">Product Details: </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta quaerat blanditiis quam libero ipsam qui, rem consectetur, enim maxime aliquam possimus reprehenderit officiis, omnis recusandae asperiores dignissimos illo esse provident.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quas sit, ratione nulla provident mollitia velit officiis ducimus modi voluptate corrupti molestias culpa voluptatum magni nihil doloribus? Minus, possimus eligendi?
+          </p>
+      </div>
+    </div>
+
+     <!-- Related products start -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="divider text-uppercase"><span></span><span>Related Products</span><span></span></div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card">
+            <a href="./product.html">
+              <img src="./Assets/p8-8.jpg" class="card-img-top zoom-img" alt="Product 1">
+              <div class="card-body pb-0 text-center">
+                <h5 class="card-title text-uppercase">FMTPT21-003 - Grey</h5>
+                <p class="price"><del>Rs. 1590</del><span class="text-dark"> Rs. 1225</span></p>
+              </div>
+            </a>
+            <div class="text-center mb-3">
+              <button class="btn bg-pink w-50"> Add to Cart </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card">
+            <a href="./product.html">
+              <img src="./Assets/p2.jpg" class="card-img-top zoom-img" alt="Product 1">
+              <div class="card-body pb-0 text-center">
+                <h5 class="card-title text-uppercase">FMTR21-34030 – White</h5>
+                <p class="price"><del>Rs. 1290</del><span class="text-dark"> Rs. 993</span></p>
+              </div>
+            </a>
+            <div class="text-center mb-3">
+              <button class="btn bg-pink w-50"> Add to Cart </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card">
+            <a href="./product.html">
+              <img src="./Assets/p3.jpg" class="card-img-top zoom-img" alt="Product 1">
+              <div class="card-body pb-0 text-center">
+                <h5 class="card-title text-uppercase">FMTS21-31420 – White</h5>
+                <p class="price">
+                  <del>Rs. 2590</del><span class="text-dark"> Rs. 1990</span>
+                </p>
+              </div>
+            </a>
+            <div class="text-center mb-3">
+              <button class="btn bg-pink w-50"> Add to Cart </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card">
+            <a href="./product.html">
+              <img src="./Assets/p4.jpg" class="card-img-top zoom-img" alt="Product 1">
+              <div class="card-body pb-0 text-center">
+                <h5 class="card-title text-uppercase">FMTS21-31432 – Multi</h5>
+                <p class="price"><del>Rs. 2190</del><span class="text-dark"> Rs. 1890</span></p>
+              </div>
+            </a>
+            <div class="text-center mb-3">
+              <button class="btn bg-pink w-50"> Add to Cart </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Related products end -->
+  </main>
+  <!-- main end -->
+
+  <!-- footer start -->
+  <footer class="bg-light text-center text-lg-start">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Need Help?</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="./contact Us.html" class="text-dark footer-link">Contact Us</a></li>
+            <li><a href="#!" class="text-dark footer-link">Payment Options</a></li>
+            <li><a href="#!" class="text-dark footer-link">Returns & Exchanges</a></li>
+            <li><a href="#!" class="text-dark footer-link">Product Care</a></li>
+            <li><a href="#!" class="text-dark footer-link">FAQs</a></li>
+            <li><a href="#!" class="text-dark footer-link">Unsubscribe</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">THE COMPANY</h5>
+          <ul class="list-unstyled">
+            <li><a href="#!" class="text-dark footer-link">About Gucci</a></li>
+            <li><a href="#!" class="text-dark footer-link">Corporate Information</a></li>
+            <li><a href="#!" class="text-dark footer-link">Privacy & Cookies</a></li>
+            <li><a href="#!" class="text-dark footer-link">Locations</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Find us On</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#!" class="text-dark footer-link"><i class="fab fa-facebook"></i> facebook</a></li>
+            <li><a href="#!" class="text-dark footer-link"><i class="fab fa-twitter"></i> twitter</a></li>
+            <li><a href="#!" class="text-dark footer-link"><i class="fab fa-instagram"></i> instagram</a></li>
+            <li><a href="#!" class="text-dark footer-link"><i class="fab fa-youtube"></i> youtube</a></li>
+            <li><a href="#!" class="text-dark footer-link"><i class="fab fa-pinterest"></i> Pinterest</a></li>
+            <li><a href="#!" class="text-dark footer-link"><i class="fab fa-snapchat"></i> snapchat</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Subscribe Us</h5>
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <button type="submit" class="btn bg-pink w-100">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="text-center bg-primary text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright
+    </div>
+  </footer>
+  <!-- footer end -->
+  
+  <!-- Bootstrap JavaScripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="./js/main.js">
+  </script>
+
+</body>
+</html>
