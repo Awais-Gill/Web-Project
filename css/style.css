@@ -62,7 +62,7 @@
   box-shadow: 0 0 0 0.15rem rgb(216 49 91 / 25%);
 }
 
-/* pagination */
+/* pagination start*/
 .page-item > .page-link {
   color: #212529;
 }
@@ -76,7 +76,7 @@
   border-color: var(--pink);
   box-shadow: 0 0 0 0.15rem #D8315B80;
 }
-/* pagination */
+/* pagination end */
 .primary-color {
   color: var(--primaty-color);
 }
@@ -111,12 +111,12 @@
 
 /* saparator start */
 /* Base Divider class */        
-.divider {								/* minor cosmetics */
+.divider {
   display: table; 
   font-size: 24px; 
   text-align: center; 
-  width: 80%; 						/* divider width */
-  margin: 40px auto;					/* spacing above/below */
+  width: 80%;
+  margin: 40px auto;
 }
 .divider span { 
 display: table-cell; 
@@ -124,13 +124,13 @@ position: relative;
 }
 .divider span:first-child, .divider span:last-child {
   width: 50%;
-  top: 18px;							/* adjust vertical align */
-  -moz-background-size: 100% 2px; 	/* line width */
-  background-size: 100% 2px; 			/* line width */
+  top: 18px;
+  -moz-background-size: 100% 2px;
+  background-size: 100% 2px;
   background-position: 0 0, 0 100%;
   background-repeat: no-repeat;
 }
-.divider span:first-child {				/* color changes in here */
+.divider span:first-child {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000));
   background-image: -webkit-linear-gradient(180deg, transparent, #000);
   background-image: -moz-linear-gradient(180deg, transparent, #000);
@@ -140,7 +140,7 @@ position: relative;
 .divider span:nth-child(2) {
   color: #000; padding: 0px 5px; width: auto; white-space: nowrap;
 }
-.divider span:last-child {				/* color changes in here */
+.divider span:last-child {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
   background-image: -webkit-linear-gradient(180deg, #000, transparent);
   background-image: -moz-linear-gradient(180deg, #000, transparent);
@@ -222,6 +222,12 @@ footer .fab {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+}
+.price del {
+  font-size: 16px !important;
+}
+.price span {
+  font-size: 16px !important;
 }
 /* change radio button color */
 .form-check-input:checked {

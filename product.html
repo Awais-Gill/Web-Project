@@ -75,7 +75,8 @@
   <!-- main start -->
   <main class="container mb-5 mt-5">
     <div class="row product">
-      <div class="col-1">
+      <!-- col 1 -->
+      <div class="col-4 col-md-1">
         <div class="row">
           <div class="col-12 mb-2">
             <img src="./Assets/p8.jpg" alt="" class="w-100 small-image">
@@ -85,11 +86,12 @@
           </div>
         </div>
       </div>
-      <div class="col-5">
+      <!-- col 2 -->
+      <div class="col-8 col-md-5">
         <img src="./Assets/p8.jpg" alt="" class="w-100" id="productImage">
       </div>
-      <div class="col-6">
-        <nav aria-label="breadcrumb">
+      <div class="col-12 col-md-6 ">
+        <nav class="d-none d-sm-block" aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">Home</li>
             <li class="breadcrumb-item ">Product</li>
@@ -97,120 +99,120 @@
           </ol>
         </nav>
         <h2 class="text-uppercase product-title">FMTPT21-003 – Grey</h2>
-        <hr>
+        <hr class="d-none d-sm-block">
         <div class="price mb-4">
           <del>Rs. 1290</del> <span>Rs. 993</span>
         </div>
-          <div class="row">
-            <div class="col-3">
-              <select class="form-select" aria-label="Default select example">
-                <option >Size</option>
-                <option value="small">Small</option>
-                <option value="medium">Medium</option>
-                <option value="large">Large</option>
-                <option value="extralarge">XL</option>
-                <option value="2xlarge">XXL</option>
-              </select>
-            </div>
-            <div class="col-4">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-dark guide-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Size Guide
-              </button>
-    
-              <!-- Modal -->
-              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">T-Shirt Size Guide</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <table class="table table-striped">
-                        <thead>
-                          <tr>
-                            <th scope="col">Size</th>
-                            <th scope="col">Length</th>
-                            <th scope="col">Shoulder</th>
-                            <th scope="col">Chest</th>
-                            <th scope="col">Sleeve</th>
-                            <th scope="col">Armhole Curve</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td scope="row">S</td>
-                            <td>27</td>
-                            <td>16.25</td>
-                            <td>18.5</td>
-                            <td>6.5</td>
-                            <td>9</td>
-                          </tr>
-                          <tr>
-                            <td scope="row">M</td>
-                            <td>28</td>
-                            <td>17</td>
-                            <td>19.5</td>
-                            <td>7</td>
-                            <td>9.5</td>
-                          </tr>
-                          <tr>
-                            <td scope="row">L</td>
-                            <td>29</td>
-                            <td>28</td>
-                            <td>20.5</td>
-                            <td>7.5</td>
-                            <td>10</td>
-                          </tr>
-                          <tr>
-                            <td scope="row">XL</td>
-                            <td>30</td>
-                            <td>18.5</td>
-                            <td>21.5</td>
-                            <td>8</td>
-                            <td>10.5</td>
-                          </tr>
-                          <tr>
-                            <td scope="row">XXL</td>
-                            <td>31</td>
-                            <td>19.25</td>
-                            <td>22.5</td>
-                            <td>8.5</td>
-                            <td>11</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
+        <div class="row">
+          <div class="col-4 col-md-4 col-lg-3 ">
+            <select class="form-select">
+              <option selected disabled>Size</option>
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+              <option value="extralarge">XL</option>
+              <option value="2xlarge">XXL</option>
+            </select>
+          </div>
+          <div class="col-4">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-dark guide-btn" data-bs-toggle="modal" data-bs-target="#sizeModel">
+              Size Guide
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="sizeModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="sizeModelLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">T-Shirt Size Guide</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">Size</th>
+                          <th scope="col">Length</th>
+                          <th scope="col">Shoulder</th>
+                          <th scope="col">Chest</th>
+                          <th scope="col">Sleeve</th>
+                          <th scope="col">Armhole Curve</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td scope="row">S</td>
+                          <td>27</td>
+                          <td>16.25</td>
+                          <td>18.5</td>
+                          <td>6.5</td>
+                          <td>9</td>
+                        </tr>
+                        <tr>
+                          <td scope="row">M</td>
+                          <td>28</td>
+                          <td>17</td>
+                          <td>19.5</td>
+                          <td>7</td>
+                          <td>9.5</td>
+                        </tr>
+                        <tr>
+                          <td scope="row">L</td>
+                          <td>29</td>
+                          <td>28</td>
+                          <td>20.5</td>
+                          <td>7.5</td>
+                          <td>10</td>
+                        </tr>
+                        <tr>
+                          <td scope="row">XL</td>
+                          <td>30</td>
+                          <td>18.5</td>
+                          <td>21.5</td>
+                          <td>8</td>
+                          <td>10.5</td>
+                        </tr>
+                        <tr>
+                          <td scope="row">XXL</td>
+                          <td>31</td>
+                          <td>19.25</td>
+                          <td>22.5</td>
+                          <td>8.5</td>
+                          <td>11</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row my-3">
-            <div class="col-3">
-              <input type="number" class="form-control quantity " id="quantity" value="1">
-            </div>
-            <div class="col-5">
-            <button class="btn bg-pink cart-btn text-uppercase"> Add to Cart <i class="fas fa-cart-plus"></i></button>
-            </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-3 col-lg-2">
+            <input type="number" class="form-control quantity " id="quantity" value="1">
           </div>
+          <div class="col-6">
+            <button class="btn bg-pink cart-btn text-uppercase"> Add to Cart <i class="fas fa-cart-plus"></i></button>
+          </div>
+        </div>
 
-          <h2 class="my-4">Product Details: </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta quaerat blanditiis quam libero ipsam qui, rem consectetur, enim maxime aliquam possimus reprehenderit officiis, omnis recusandae asperiores dignissimos illo esse provident.
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quas sit, ratione nulla provident mollitia velit officiis ducimus modi voluptate corrupti molestias culpa voluptatum magni nihil doloribus? Minus, possimus eligendi?
-          </p>
-      </div>
+        <h2 class="my-4">Product Details: </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta quaerat blanditiis quam libero ipsam qui, rem consectetur, enim maxime aliquam possimus reprehenderit officiis, omnis recusandae asperiores dignissimos illo esse provident.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quas sit, ratione nulla provident mollitia velit officiis ducimus modi voluptate corrupti molestias culpa voluptatum magni nihil doloribus? Minus, possimus eligendi?
+        </p>
+    </div>
     </div>
 
      <!-- Related products start -->
     <div class="container mt-2">
       <div class="row">
         <div class="divider text-uppercase"><span></span><span>Related Products</span><span></span></div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="col-md-3 col-6 mb-3">
           <div class="card">
             <a href="./product.html">
               <img src="./Assets/p8-8.jpg" class="card-img-top zoom-img" alt="Product 1">
@@ -220,11 +222,11 @@
               </div>
             </a>
             <div class="text-center mb-3">
-              <button class="btn bg-pink w-50"> Add to Cart </button>
+              <button class="btn bg-pink">Add to Cart</button>
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="col-md-3 col-6 mb-3">
           <div class="card">
             <a href="./product.html">
               <img src="./Assets/p2.jpg" class="card-img-top zoom-img" alt="Product 1">
@@ -234,11 +236,11 @@
               </div>
             </a>
             <div class="text-center mb-3">
-              <button class="btn bg-pink w-50"> Add to Cart </button>
+              <button class="btn bg-pink">Add to Cart</button>
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="col-md-3 col-6 mb-3">
           <div class="card">
             <a href="./product.html">
               <img src="./Assets/p3.jpg" class="card-img-top zoom-img" alt="Product 1">
@@ -250,11 +252,11 @@
               </div>
             </a>
             <div class="text-center mb-3">
-              <button class="btn bg-pink w-50"> Add to Cart </button>
+              <button class="btn bg-pink">Add to Cart</button>
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="col-md-3 col-6 mb-3">
           <div class="card">
             <a href="./product.html">
               <img src="./Assets/p4.jpg" class="card-img-top zoom-img" alt="Product 1">
@@ -264,7 +266,7 @@
               </div>
             </a>
             <div class="text-center mb-3">
-              <button class="btn bg-pink w-50"> Add to Cart </button>
+              <button class="btn bg-pink">Add to Cart</button>
             </div>
           </div>
         </div>
