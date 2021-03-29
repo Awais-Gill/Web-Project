@@ -157,32 +157,28 @@ position: relative;
 header {
   font-family: var(--roboto);
 }
+header .topBar {
+  margin: 0;
+}
+header .topBar nav {
+  font-size: 12px;
+  line-height: 36px;
+  font-family: var(--dosis);
+}
+header .social-icon {
+  font-size: 16px;
+}
 header .site-title {
   font-family: var(--gugi);
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
 }
-.container .dropdown-toggle,
-.container .dropdown-item {
-  font-size: 0.7em;
+header .nav-link {
+  color: #fff !important;
+  font-size: 16px;
 }
-header a {
-  /* color: var(--pink); */
-  font-size: 20px;
-}
-header a:hover {
-  color: #3E92CC;
-}
-/* navbar start */
-.navbar {
-  border-radius: 50px;
-}
-/* navbar end */
 /* header end */
-
-/* slidebar start */
-/* slidebar end */
 
 /* main start */
 .card a {
