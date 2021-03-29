@@ -12,18 +12,18 @@ smallImg[1].onclick = function()
 }
 
 // gotp to top
-var topbtn = document.getElementById("gotopbtn");
-window.onscroll = function() {
-  showBtn()
-};
+// var topbtn = document.getElementById("gotopbtn");
+// window.onscroll = function() {
+//   showBtn()
+// };
 
-function showBtn(){
-  if(document.body.scrollTop > 800 || document.documentElement.scrollTop > 800)
-  {
-    topbtn.style.display = "block";
-  }
-  else
-  {
-    topbtn.style.display = "none";
-  }
-}
+// function showBtn(){
+//   if(document.body.scrollTop > 800 || document.documentElement.scrollTop > 800)
+//   {
+//     topbtn.style.display = "block";
+//   }
+//   else
+//   {
+//     topbtn.style.display = "none";
+//   }
+// }
