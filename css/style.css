@@ -62,6 +62,10 @@
   box-shadow: 0 0 0 0.15rem rgb(216 49 91 / 25%);
 }
 
+.card {
+  border: none;
+}
+
 /* pagination start*/
 .page-item > .page-link {
   color: #212529;
