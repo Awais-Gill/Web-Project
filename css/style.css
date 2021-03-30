@@ -173,6 +173,7 @@ header .social-icon button {
   background-color: var(--bg-light);
 }
 header .site-title {
+  font-size: 22px !important;
   font-family: var(--gugi);
   font-weight: bold;
   text-transform: uppercase;
@@ -186,7 +187,7 @@ header .btn-link {
   font-size: 18px;
   text-decoration: none;
 }
-header .btn-link:hover {  
+header ul .btn-link:hover {  
   border-bottom: 4px solid var(--pink);
 }
 header .btn-link:focus {
