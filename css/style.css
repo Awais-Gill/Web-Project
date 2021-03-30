@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&family=Sofia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+
 
 :root {
   --light-gray: #2a2f32a1;
   --primaty-color: #0A2463;
+  --bg-light: #F8F9FA;
   --gray: #C6C7C8;
   --border: #2a2f3218;
   --pink: rgb(216, 49, 91);
@@ -18,6 +22,9 @@
   --gugi: 'Gugi', cursive;
   --sofia: 'Sofia', cursive;
   --dosis: 'Dosis', sans-serif;
+  --pacifico: 'Pacifico', cursive;
+  --ubuntu: 'Ubuntu', sans-serif;
+  --charm: 'Charm', cursive;
 }
 
 .bg-primary{
@@ -357,7 +364,37 @@ main {
   height: 100%;
 }
 
-/* top btn */
+/* ================================= About Us Page ===================================== */
+.aboutPage .mission {
+  font-size: 20px !important;
+  font-family: var(--pacifico);
+}
+.aboutPage .about {
+  background-color: var(--bg-light);
+}
+.aboutPage .about span {
+  text-transform: uppercase;
+}
+.aboutPage .group-member img {
+  width: 150px;
+  height: 150px;
+}
+.aboutPage .name {
+  font-family: var(--charm);
+  font-size: 22px;
+  font-weight: bold;
+}
+.aboutPage .sap {
+  font-size: 16px;
+  font-family: var(--ubuntu);
+}
+.aboutPage .email {
+  font-size: 12px;
+}
+.aboutPage .detail {
+  font-size: 14px;
+}
+/* ============================= Scroll To Top Button ================================== */
 #back-to-top {
   position: fixed;
   width: 50px;
