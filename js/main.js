@@ -10,6 +10,21 @@ function scrollFunction() {
   }
 }
 
+function gotoHomePage() {
+  location.replace("./index.html")
+}
+function gotoProductsPage() {
+  location.replace("./products.html")
+}
+function gotoSingleProductPage() {
+  location.replace("./single-product.html")
+}
+function gotoContactUsPage() {
+  location.replace("./contact Us.html")
+}
+function gotoAboutUsPage() {
+  location.replace("./about us.html")
+}
 
 // replace gallery image of product
 var productImg = document.getElementById('productImage');

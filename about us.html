@@ -16,6 +16,7 @@
   <!-- title -->
   <title>Online store</title>
 </head>
+
 <body id="top">
   <!-- Header start -->
   <header>
@@ -26,11 +27,11 @@
           <p class="text-capitalize customer m-0">Customer Care: 0213-4103245</p>
           <p class="text-capitalize free-shipping m-0">#Free shipping over Rs. 2000</p>
           <p class="mb-0 social-icon">
-            <a class="mx-2" href="#"><i class="fab fa-facebook"></i></a>
-            <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-            <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-            <a class="mx-2" href="#"><i class="fab fa-youtube"></i></a>
-            <a class="mx-2" href="#"><i class="fab fa-pinterest"></i></a>
+            <button class="mx-1"><i class="fab fa-facebook"></i></button>
+            <button class="mx-1"><i class="fab fa-twitter"></i></button>
+            <button class="mx-1"><i class="fab fa-instagram"></i></button>
+            <button class="mx-1"><i class="fab fa-youtube"></i></button>
+            <button class="mx-1"><i class="fab fa-pinterest"></i></button>
           </p>
         </nav>
       </div>
@@ -43,34 +44,32 @@
         <div class="col-12 px-0">
           <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-primary">
             <div class="container-fluid">
-              <a class="navbar-brand site-title" href="./index.html">Company name</a>
+              <button class="navbar-brand site-title btn btn-link" onclick="gotoHomePage()">Company name</button>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="headerNavbar">
                 <ul class="navbar-nav me-auto mb-lg-0 text-capitalize">
-                  <li class="nav-item"><a class="nav-link" href="./products.html">New Arrival</a></li>
-                  <li class="nav-item"><a class="nav-link" href="./products.html">Men</a></li>
-                  <li class="nav-item"><a class="nav-link" href="./products.html">Women</a></li>
-                  <!-- <li class="nav-item"><a class="nav-link" href="./products.html">Boys</a></li> -->
+                  <li class="nav-item"><button class="btn btn-link" onclick="gotoProductsPage()">New Arrival</button></li>
+                  <li class="nav-item"><button class="btn btn-link" onclick="gotoProductsPage()">Men</button></li>
+                  <li class="nav-item"><button class="btn btn-link" onclick="gotoProductsPage()">Women</button></li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Boys
-                    </a>
+                    </button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="./single-product.html">T-shirts</a>
-                      <a class="dropdown-item" href="./single-product.html">casual Shirts</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="./single-product.html">Something else here</a>
+                      <button class="dropdown-item" onclick="gotoProductsPage()">T-shirts</button>
+                      <button class="dropdown-item" onclick="gotoProductsPage()">Casual Shirts</button>
+                      <button class="dropdown-item" onclick="gotoProductsPage()">Jeans</button>
                     </div>
                   </li>
-                  <li class="nav-item"><a class="nav-link" href="./products.html">Girls</a></li>
-                  <li class="nav-item"><a class="nav-link" href="./products.html">Sale</a></li>
+                  <li class="nav-item"><button class="btn btn-link" onclick="gotoProductsPage()">Girls</button></li>
+                  <li class="nav-item"><button class="btn btn-link" onclick="gotoProductsPage()">Sale</button></li>
                 </ul>
                 <ul class="navbar-nav mb-lg-0">
-                  <li class="nav-item"><a class="nav-link" href="#">Sign In</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-cart-plus"></i></a></li>
+                  <li class="nav-item"><button class="btn btn-link">Sign Up</button></li>
+                  <li class="nav-item"><button class="btn btn-link">Sign In</button></li>
+                  <li class="nav-item"><button class="btn btn-link"><i class="fas fa-cart-plus"></i></button></li>
                 </ul>
               </div>
             </div>
@@ -91,32 +90,31 @@
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase">Need Help?</h5>
           <ul class="list-unstyled mb-0">
-            <li><a href="./contact Us.html" class="text-dark footer-link">Contact Us</a></li>
-            <li><a href="#!" class="text-dark footer-link">Payment Options</a></li>
-            <li><a href="#!" class="text-dark footer-link">Returns & Exchanges</a></li>
-            <li><a href="#!" class="text-dark footer-link">Product Care</a></li>
-            <li><a href="#!" class="text-dark footer-link">FAQs</a></li>
-            <li><a href="#!" class="text-dark footer-link">Unsubscribe</a></li>
+            <li><button onclick="gotoContactUsPage()" class="text-dark footer-link">Contact Us</button></li>
+            <li><button class="text-dark footer-link">Payment Option</button></li>
+            <li><button class="text-dark footer-link">Returns & Exchanges</button></li>
+            <li><button class="text-dark footer-link">Product Care</button></li>
+            <li><button class="text-dark footer-link">FAQs</button></li>
+            <li><button class="text-dark footer-link">Unsubscribe</button></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase">THE COMPANY</h5>
           <ul class="list-unstyled">
-            <li><a href="./about us.html" class="text-dark footer-link">About Us</a></li>
-            <li><a href="#!" class="text-dark footer-link">Corporate Information</a></li>
-            <li><a href="#!" class="text-dark footer-link">Privacy & Cookies</a></li>
-            <li><a href="#!" class="text-dark footer-link">Locations</a></li>
+            <li><button onclick="gotoAboutUsPage()" class="text-dark footer-link">About Us</button></li>
+            <li><button class="text-dark footer-link">Corporate Information</button></li>
+            <li><button class="text-dark footer-link">Privacy & Cookies</button></li>
+            <li><button class="text-dark footer-link">Locations</button></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase">Find us On</h5>
           <ul class="list-unstyled mb-0">
-            <li><a href="#!" class="text-dark footer-link"><i class="fab fa-facebook"></i> facebook</a></li>
-            <li><a href="#!" class="text-dark footer-link"><i class="fab fa-twitter"></i> twitter</a></li>
-            <li><a href="#!" class="text-dark footer-link"><i class="fab fa-instagram"></i> instagram</a></li>
-            <li><a href="#!" class="text-dark footer-link"><i class="fab fa-youtube"></i> youtube</a></li>
-            <li><a href="#!" class="text-dark footer-link"><i class="fab fa-pinterest"></i> Pinterest</a></li>
-            <li><a href="#!" class="text-dark footer-link"><i class="fab fa-snapchat"></i> snapchat</a></li>
+            <li><button class="text-dark footer-link"><i class="fab fa-facebook"></i> facebook</button></li>
+            <li><button class="text-dark footer-link"><i class="fab fa-twitter"></i> twitter</button></li>
+            <li><button class="text-dark footer-link"><i class="fab fa-instagram"></i> instagram</button></li>
+            <li><button class="text-dark footer-link"><i class="fab fa-youtube"></i> youtube</button></li>
+            <li><button class="text-dark footer-link"><i class="fab fa-pinterest"></i> pinterest<twitterinstagram/button></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
@@ -142,8 +140,7 @@
   
   <!-- Bootstrap JavaScripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-  <script src="./js/main.js">
-  </script>
+  <script src="./js/main.js"></script>
 
 </body>
 </html>
