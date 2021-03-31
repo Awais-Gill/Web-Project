@@ -180,10 +180,11 @@ header .social-icon button {
   background-color: var(--bg-light);
 }
 header .site-title {
-  font-size: 22px !important;
-  font-family: var(--gugi);
+  font-size: 25px !important;
+  /* font-family: var(--gugi); */
+  font-family: "futura black", sans-serif;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
 }
 header .btn {
