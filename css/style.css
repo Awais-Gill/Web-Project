@@ -182,7 +182,7 @@ header .social-icon button {
 header .site-title {
   font-size: 25px !important;
   /* font-family: var(--gugi); */
-  font-family: "futura black", sans-serif;
+  font-family: "futura black", var(--gugi);
   font-weight: bold;
   text-transform: capitalize;
   text-decoration: none;
@@ -337,6 +337,10 @@ main {
   font-weight: 700;
   color: #6b6b6b;
   font-family: var(--roboto);
+}
+.contactPage input::-webkit-outer-spin-button, /* remove arrows on number input */
+.contactPage input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 .contactPage input,textarea  {
   font-size: 14px;
