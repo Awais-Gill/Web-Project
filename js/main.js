@@ -25,6 +25,9 @@ function gotoContactUsPage() {
 function gotoAboutUsPage() {
   location.replace("./about us.html")
 }
+function gotoGroupMembers() {
+  location.replace("./first.html")
+}
 
 // replace gallery image of product
 var productImg = document.getElementById('productImage');

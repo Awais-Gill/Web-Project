@@ -181,7 +181,6 @@ header .social-icon button {
 }
 header .site-title {
   font-size: 25px !important;
-  /* font-family: var(--gugi); */
   font-family: "futura black", var(--gugi);
   font-weight: bold;
   text-transform: capitalize;
@@ -394,7 +393,7 @@ main {
   font-family: var(--ubuntu);
 }
 .aboutPage .email {
-  font-size: 12px;
+  font-size: 16px;
 }
 .aboutPage .detail {
   font-size: 14px;
